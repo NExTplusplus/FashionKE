@@ -2,16 +2,17 @@
 Code of paper: ["Who, Where, and What to Wear? Extracting Fashion Knowledge from Social Media"](https://dl.acm.org/doi/pdf/10.1145/3343031.3350889)
 
 ### Requirements
-python3  
-pytorch 0.4.1  
-torchvision  
-pyyaml  
-json  
-numpy  
-pickle  
-tensorboard\_logger  
-scipy  
-
+```
+python>=3  
+pytorch==0.4.1  
+torchvision==6.2.0 
+pyyaml==5.1.2
+json==2.0.9  
+numpy==1.18.1 
+pickle
+tensorboard_logger==0.1.0
+scipy==1.18.1 
+```
 ### Train
 You can modify the config file in config.yaml to change the hyper-parameters.
 
